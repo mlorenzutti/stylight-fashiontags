@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+$color1: #26c2d9;
+$color2: #a14d7d;
+$color3: #1de3c1;
+$color4: #e69da1;
+
+body {
+	background: black;
+	color: white;
+	overflow-x: hidden;
+	font-family: 'Lato', sans-serif;
+	background: linear-gradient(to right,  #162136 0%,#000000 28%,#000000 73%,#162136 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  
+  border-top: 20px solid #fff;
+}

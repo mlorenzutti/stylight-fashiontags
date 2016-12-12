@@ -1,0 +1,58 @@
+.world {
+	text-align: center;
+	transition: .5s ease transform;
+	height: 36vw;
+	@media (min-width:1900px){
+			height: 25vw;
+	}
+	img {
+		width: 100%;
+	}
+	.world__container {
+		position: absolute;
+	    width: 213%;
+	    left: -36%;
+	    top: 22%;
+		@media (min-width:1900px){
+			position: relative;
+		    width: 240%;
+		    max-width: 3360px;
+		    left: 71%;
+		    transform: translateX(-50%);
+		    top: -310px;
+		}
+	}
+	.circle {
+	    position: absolute;
+	    width: 6px;
+	    height: 6px;
+	    background: $color1;
+		opacity: 0.7;
+	    border-radius: 100%;
+		transition: .5s ease all;
+	    transform: scale(1);
+	}
+	
+
+
+	.circle-nyc {
+		left: 26.7%;
+		top: 39%;
+	}
+
+	.circle-mil {
+		left: 49.5%;
+    	top: 36%;
+	}
+
+	.circle-par {
+		left: 47.3%;
+    	top: 34.8%;
+	}
+
+	.circle-lnd {
+		left: 46.5%;
+    	top: 31%;
+	}
+	
+}

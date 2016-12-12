@@ -1,0 +1,72 @@
+{
+   "hashtag_count":520,
+   "timeline":[
+      {
+         "count":0,
+         "timestamp":"2014-01-18 10:10:00+00:00"
+      },
+      {
+         "count":10,
+         "timestamp":"2014-01-11 10:40:00+00:00"
+      },
+      {
+         "count":20,
+         "timestamp":"2014-01-11 15:50:00+00:00"
+      },
+      {
+         "count":90,
+         "timestamp":"2014-01-17 08:30:00+00:00"
+      },
+      {
+         "count":80,
+         "timestamp":"2014-01-18 19:00:00+00:00"
+      },
+      {
+         "count":70,
+         "timestamp":"2014-01-12 08:55:00+00:00"
+      },
+      {
+         "count":60,
+         "timestamp":"2014-01-13 13:30:00+00:00"
+      },
+      {
+         "count":50,
+         "timestamp":"2014-01-20 10:25:00+00:00"
+      },
+      {
+         "count":30,
+         "timestamp":"2014-01-18 22:00:00+00:00"
+      }
+   ],
+   "related_hashtags":[
+      {
+           "parisfashion": 679
+       }, {
+           "frenchstyle": 389
+       },
+       {
+           "grainpalais": 276
+       },
+       {
+           "chanel": 163
+       },
+       {
+           "diorfw": 143
+       }
+   ],
+   "locations":[
+      {
+         "New York":70
+      },
+      {
+         "London":80
+      },
+      {
+         "Paris":220
+      },
+      {
+         "Milan":150
+      }
+   ],
+   "hashtag":"nyfw"
+}

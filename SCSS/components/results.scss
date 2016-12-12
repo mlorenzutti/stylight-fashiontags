@@ -1,0 +1,29 @@
+.main-result {
+	margin-top: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	&__col1 {
+		margin-right: 10px;
+		text-align: right;
+	}
+	&__col3 {
+		margin-left: 10px;
+		text-align: left;
+	}
+}
+
+.secondary-result {
+	&__title {
+		margin-top: 30px;    
+		margin-bottom: 30px;
+	}
+	&__list {
+	    display: flex;
+	    justify-content: center;
+	}
+	&__list-item {
+	    margin: 0 30px;
+	}
+	
+}

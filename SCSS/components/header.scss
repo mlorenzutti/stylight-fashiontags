@@ -1,0 +1,147 @@
+header {
+	position: relative;
+	z-index: 100000;
+	.title {
+		font-weight: bold;
+		border-left: 5px solid $color1;
+		padding-left: 5px;
+		font-size: 30px;
+		position: absolute;
+		top: 42px;
+		line-height: 1.1;
+		left: 30px;
+	}
+	.logo {
+	    position: absolute;
+	    top: 0;
+	    right: 30px;
+	    width: 177px;
+		img {
+		    width: 100%;
+		}
+	}
+
+	ul {
+		list-style: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		font-size: 20px;
+	}
+	li {
+		position: relative;
+		margin: 0px 20px;
+		padding: 40px 0;
+		.arrow-down {
+		    position: absolute;
+			opacity: 0;
+		    top: 0;
+		    left: 50%;
+			transition: .3s ease opacity;
+		    transform: translateX(-50%);
+		}
+		&.active {
+			a {
+				font-weight: bold;
+			}
+			.arrow-down {
+				opacity: 1;
+			}
+		}
+		a:before {
+			transition: 0.3s ease all;
+			content: ' ';
+			display: block;
+			position: absolute;
+			bottom: -5px;
+			height: 5px;
+			width: 100%;
+		}
+		&:nth-child(1){
+			a:before {
+				background: $color1;
+				
+			}
+			&:hover a:before, &.active a:before{
+				box-shadow: 0px 0px 10px 3px rgba($color1, 0.5);
+			}
+		}
+		&:nth-child(2){
+			a:before {
+				background: $color2;
+				
+			}
+			&:hover a:before, &.active a:before{
+				box-shadow: 0px 0px 10px 3px rgba($color2, 0.5);
+			}
+		}
+		&:nth-child(3){
+			a:before {
+				background: $color3;
+				
+			}
+			&:hover a:before, &.active a:before{
+				box-shadow: 0px 0px 10px 3px rgba($color3, 0.5);
+			}
+		}
+		&:nth-child(4){
+			a:before {
+				background: $color4;
+				
+			}
+			&:hover a:before, &.active a:before{
+				box-shadow: 0px 0px 10px 3px rgba($color4, 0.5);
+			}
+		}
+		a {
+			padding: 0 0px;
+			line-height: 30px;
+			display: block;
+			font-weight: 300;
+			position: relative;
+		}
+	}
+	
+}
+
+.header-start {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+	.top {
+		display: flex;
+		align-items: center;
+		width: 610px;
+    	justify-content: space-between;
+	}
+	.title {
+		font-weight: bold;
+		border-left: 5px solid $color1;
+		padding-left: 5px;
+		font-size: 30px;
+		line-height: 1.1;
+	}
+	a.btn {
+	    border: 1px solid white;
+	    padding: 10px 20px;
+	    flex-shrink: 0;
+	    border-radius: 40px;
+	    transition: 0.3s ease all;
+	}
+
+	a.btn:hover {
+	    background: white;
+	    color: black;
+	}
+	.logo {
+	    width: 177px;
+		img {
+			width: 100%;
+		    position: relative;
+		    top: 0;
+		    transform: inherit;
+		    left: 0;
+		}
+	}
+}

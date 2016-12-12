@@ -1,0 +1,28 @@
+.c3-circle {
+    display: none;
+}
+
+.c3-lines-NYFW .c3-line {
+    stroke: $color1 !important;
+    stroke-width: 5px;
+}
+
+.c3-lines-MFW .c3-line {
+    stroke: $color3 !important;
+    stroke-width: 5px;
+}
+
+.c3-lines-PFW .c3-line {
+    stroke: $color4 !important;
+    stroke-width: 5px;
+}
+
+.c3-lines-LFW .c3-line {
+    stroke: $color2 !important;
+    stroke-width: 5px;
+}
+
+.c3 path {
+    stroke: #1A212C;
+    stroke-width: 4px;
+}

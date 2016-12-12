@@ -1,0 +1,25 @@
+.loading-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,#162136,#000 28%,#000 73%,#162136);
+    z-index: 1;
+    transition: opacity .3s ease;
+    transform: translateX(0%);
+    opacity: 1;
+    top: 0;
+    left: 0;
+	.loaded & {
+		transform: translateX(0%);
+		opacity: 0;
+	}
+    .loaded-hide & {
+        transform: translateX(-100%);
+    }
+    img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-30%);
+    }
+}
